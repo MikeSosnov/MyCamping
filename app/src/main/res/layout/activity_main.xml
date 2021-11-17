@@ -270,7 +270,8 @@
         app:layout_constraintEnd_toEndOf="@+id/button6"
         app:layout_constraintStart_toStartOf="@+id/button6"
         app:layout_constraintTop_toTopOf="@+id/button6"
-        app:srcCompat="@drawable/ic_noun_new_3656626_1" />
+        app:srcCompat="@drawable/ic_noun_new_3656626_1"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -282,7 +283,8 @@
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintStart_toStartOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/button3"
-        app:srcCompat="@drawable/ic_vector" />
+        app:srcCompat="@drawable/ic_vector"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 
 </android.support.constraint.ConstraintLayout>

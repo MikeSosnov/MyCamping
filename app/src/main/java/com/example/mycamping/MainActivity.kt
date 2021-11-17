@@ -1,8 +1,8 @@
 package com.example.mycamping
-
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.button)
     }
 
-    fun My_tag_Log() {
+    fun Good (view: View) {
         Log.d("My Tag", "Hello World")
     }
 }
