@@ -132,6 +132,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="110dp"
         android:alpha="0.9"
+        android:onClick="Good"
         android:background="@drawable/ph7"
         android:fontFamily="@font/aqum_classic"
         app:layout_constraintBottom_toBottomOf="parent"
